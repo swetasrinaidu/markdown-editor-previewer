@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import '../App.css';
 import { Previewer } from "./Previewer";
-//import marked from "marked";
 
 export function Editor(){
     const [input,setInput]=useState("Welcome to my react Markdown Previewer!")

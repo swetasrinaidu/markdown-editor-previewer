@@ -1,5 +1,4 @@
 import React from "react";
-import Markdown from "marked-react";
 import '../App.css';
 
 export function Previewer(props){
@@ -10,14 +9,12 @@ export function Previewer(props){
               </div>
               <div className="preview">
 
-             <h1>{props.input}</h1>
+                <h1>{props.input}</h1>
 
-              <hr/>
-              
+                <hr/>
+
               </div>
               
-             {/* {<div className="preview" dangerouslySetInnerHTML={{__html:`Type here...`}} /> } */}
-             {/* <Markdown>{props.input}</Markdown> */}
          </div>
     )
 }
