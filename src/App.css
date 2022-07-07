@@ -1,0 +1,41 @@
+.App {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading{
+   margin:0;
+   background-color: blueviolet;
+   height:50px;
+   width:503px;
+   text-align: center;
+}
+.heading_preview{
+  position:absolute;
+  top:500px;
+  left:300px;
+   background-color: blueviolet;
+   height:60px;
+   width:700px;
+   text-align: center;
+   padding-bottom: 5px;
+}
+.editor{
+ position: relative;
+ background-color: rgb(230, 219, 219);
+ width:500px;
+ height:400px;
+ border: 0px;
+ }
+
+.preview{
+ position:absolute;
+ top:550px;
+ left:300px;
+ width:700px;
+ height:700px;
+ background-color: rgb(230, 219, 219);
+}
+
+
+
